@@ -1,0 +1,77 @@
+.homecontents{
+  height: calc(100vh - 56px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://wallpaperaccess.com/full/1637842.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homecontents h1{
+  font-size: 55px;
+}
+.homecontents p{
+  font-size: 20px;
+}
+.aboutimg img{
+  height: 500px;
+  border-radius: 5px;
+}
+.abouttext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.abouttext p{
+  font-size: 20px;
+}
+.aboutSection{
+  background-color: rgb(248 249 250);
+}
+.achieve{
+  font-size: 55px;
+}
+.cardcontents{
+  border: none;
+  padding: 40px 0;
+}
+.gallerySection{
+  background-color: rgb(248 249 250);
+  margin: 10px 0;
+}
+
+.ronopics img{
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+
+}
+.formbtn{
+  display: flex;
+  justify-content: center;
+}
+
+.footercontents{
+  height: 56px;
+}
+.contactSection{
+  background-color: #333;
+}
+ 
+
+@media screen and (max-width:576px){
+  .homecontents h1{
+    font-size: 35px;
+  }
+  .homecontents p{
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.headerSection{
+  position: sticky;
+  top: 0;
+}
